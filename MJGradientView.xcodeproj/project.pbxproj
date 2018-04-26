@@ -13,6 +13,7 @@
 		069B95362091C704009CEEEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 069B95352091C704009CEEEF /* Assets.xcassets */; };
 		069B95392091C704009CEEEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 069B95372091C704009CEEEF /* LaunchScreen.storyboard */; };
 		069B953C2091C704009CEEEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 069B953B2091C704009CEEEF /* main.m */; };
+		069B95452091C7C0009CEEEF /* MJGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 069B95442091C7C0009CEEEF /* MJGradientView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		069B95382091C704009CEEEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		069B953A2091C704009CEEEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		069B953B2091C704009CEEEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		069B95432091C7C0009CEEEF /* MJGradientView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJGradientView.h; sourceTree = "<group>"; };
+		069B95442091C7C0009CEEEF /* MJGradientView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJGradientView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		069B952B2091C702009CEEEF /* MJGradientView */ = {
 			isa = PBXGroup;
 			children = (
+				069B95422091C79E009CEEEF /* Classes */,
 				069B952C2091C702009CEEEF /* AppDelegate.h */,
 				069B952D2091C702009CEEEF /* AppDelegate.m */,
 				069B952F2091C702009CEEEF /* ViewController.h */,
@@ -70,6 +74,15 @@
 			);
 			path = MJGradientView;
 			sourceTree = "<group>";
+		};
+		069B95422091C79E009CEEEF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				069B95432091C7C0009CEEEF /* MJGradientView.h */,
+				069B95442091C7C0009CEEEF /* MJGradientView.m */,
+			);
+			path = Classes;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -144,6 +157,7 @@
 				069B95312091C702009CEEEF /* ViewController.m in Sources */,
 				069B953C2091C704009CEEEF /* main.m in Sources */,
 				069B952E2091C702009CEEEF /* AppDelegate.m in Sources */,
+				069B95452091C7C0009CEEEF /* MJGradientView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +300,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 76MM79XMJ9;
 				INFOPLIST_FILE = MJGradientView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +318,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 76MM79XMJ9;
 				INFOPLIST_FILE = MJGradientView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
